@@ -169,7 +169,7 @@ function includeReceita(index) {
             <ul>
 
             <div class="actions">
-                <a class="verMais" href="${searchRevenue.link}">Ver modo de preparo</a>
+                <a class="verMais" href="${searchRevenue.link}" target="_blank">Ver modo de preparo</a>
                 <button class="close" onclick=(closeModal())>
                     <span class="material-symbols-outlined">close</span>
                 </button>
