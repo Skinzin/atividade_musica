@@ -1,0 +1,10 @@
+div.containerHome {
+    display: flex;
+    place-items: center;
+}
+
+div.containerHome img#entrada  {
+    margin: auto;
+
+    cursor: pointer;
+}

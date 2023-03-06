@@ -1,0 +1,73 @@
+#modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(61, 61, 61, 0.575);
+
+
+    z-index: -1;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    transition: .3s ease-in;
+}
+
+#modal > div {
+    background-color: var(--zinc-900);
+    border-radius: 8px;
+
+    max-width: 24rem;
+    max-height: calc(100vh - 22rem);
+    overflow-y: auto;
+
+    position: relative;
+}
+
+#modal div.header {
+    padding: 12px 18px;
+    border-bottom: 1px solid var(--zinc-700);
+}
+
+#modal ul{
+    list-style: none;
+    padding: 0 16px;
+}
+
+#modal .preparationTime {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+#modal .close {
+    background-color: var(--zinc-900);
+    border-radius: 12px;
+
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--zinc-900);
+    margin-top: 12px;
+    width: 100%;
+}
+
+.actions a {
+    text-decoration: none;
+    color: #38bdf8;
+}
+
+#modal .title {
+    margin-bottom: 16px;
+    font-size: 28px;
+    text-align: center;
+}
